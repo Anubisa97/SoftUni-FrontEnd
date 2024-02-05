@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendar</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        padding: 2em;
+      }
+      .container {
+        display: flex;
+        max-width: 65vw;
+        margin: 0 auto;
+      }
+      section {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      span {
+        flex-grow: 1;
+        display: block;
+        border: 1px solid black;
+        padding: 1.5em 2em;
+        text-align: center;
+      }
+
+      .workweek,
+      .weekend {
+        flex: 1 0 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <section class="week">
+        <span class="workweek"><p>Workweek</p></span>
+        <span class="1"><p>1 Monday</p></span>
+        <span class="2"><p>2 Thuesday</p></span>
+        <span class="3"><p>3 Wednesday</p></span>
+        <span class="4"><p>4 Thursday</p></span>
+        <span class="5"><p>5 Friday</p></span>
+        <span class="weekend"><p>Weekend</p></span>
+        <span class="6"><p>6 Saturday</p></span>
+        <span class="7"><p>7 Sunday</p></span>
+      </section>
+      <section class="notes">
+        <span class="reminders"><p>REMINDERS</p></span>
+        <span class="dates"><p>SPECIAL DATES</p></span>
+      </section>
+    </div>
+  </body>
+</html>
