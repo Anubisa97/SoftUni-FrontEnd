@@ -16,6 +16,12 @@ body {
         flex-direction: column;
 
     }
+
+    header .header-li {
+        display: block;
+        padding-bottom: 5px;
+
+    }
 }
 
 header, aside, main, footer {
@@ -27,6 +33,21 @@ header {
     display: flex;
     flex: 1 1 100%;
     padding: 2em 1em 2em 1em;
+    gap: 2em;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.header-li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.header-a {
+    padding-left: 5px;
+    text-decoration: none;
+    font-size: 1.1em;
 }
 
 aside {
