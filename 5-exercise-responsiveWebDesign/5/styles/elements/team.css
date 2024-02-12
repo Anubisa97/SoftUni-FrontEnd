@@ -1,0 +1,26 @@
+.team {
+    display: flex;
+    padding: 5em;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3em;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 300px;
+    text-align: center;
+}
