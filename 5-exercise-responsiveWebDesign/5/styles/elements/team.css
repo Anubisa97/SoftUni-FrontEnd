@@ -1,9 +1,16 @@
+p {
+    padding: 0;
+    line-height: 1;
+}
+
 .team {
     display: flex;
-    padding: 5em;
+    flex: 1 1 100%;
+    padding: 3em 10em 3em 10em;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    
 
 }
 
@@ -17,10 +24,32 @@
 }
 
 .member {
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex: 0 0 300px;
     text-align: center;
+    padding: 2em 3em 2em 3em;
+}
+
+.member img {
+    max-width: 100px;
+    border-radius: 50%;
+    outline: 4px solid rgba(255, 255, 255, 0.3);
+    outline-offset: -4px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+    
+}
+
+
+.member-name {
+    font-weight: 600;
+    padding: 2.5em 0 0.3em 0;
+}
+
+.member-position {
+    padding-bottom: 1.2em;
 }

@@ -1,0 +1,22 @@
+.need-a-website {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3em 30em 3em 30em;
+}
+
+.prompt {
+    display: flex;
+    flex-direction: column;
+    max-width: 28em;
+    gap: 1em;
+}
+
+.need-a-website img {
+    width: 100px;
+}
+
+.prompt .button {
+    align-self: flex-start;
+}

@@ -1,6 +1,32 @@
 #nav-toggle {
     display: none;
 }
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2em 10em 1.2em 10em;
+    width: 100%;
+}
+
+.branding {
+    display: flex;
+    flex-direction: column;
+}
+
+.site-title {
+    color: purple;
+    font-weight: 600;
+}
+
+.site-slogan {
+    font-family: "PT Sans", sans-serif;
+    letter-spacing: -0.5px;
+    opacity: 80%;
+    padding-top: 0.5em;
+    font-size: 9px;
+
+}
 
 .main-nav ul {
     padding: 0;
@@ -14,9 +40,7 @@
 .main-nav a {
     display: block;
     text-decoration: none;
-    background: #EEE;
-    padding: 0.5em 0.8em;
-    border-radius: 0.3em;
+    padding: 0.5em 1em;
     color: rgb(0, 0, 0);
 }
 
