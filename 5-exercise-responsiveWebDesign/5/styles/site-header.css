@@ -5,7 +5,7 @@
     margin-bottom: 2em;
 }
 
-.site-title {
+.site-title, .footer-name {
     font-size: 2em;
     line-height: 1;
     margin: 0;

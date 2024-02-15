@@ -3,7 +3,8 @@
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    padding: 3em 30em 3em 30em;
+    padding: 3em 10em 3em 10em;
+    max-width: 70em;
 }
 
 .prompt {

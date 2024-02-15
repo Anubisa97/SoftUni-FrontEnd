@@ -6,6 +6,7 @@ p {
 .team {
     display: flex;
     flex: 1 1 100%;
+    max-width: 100em;
     padding: 3em 10em 3em 10em;
     align-items: center;
     flex-direction: column;
@@ -53,3 +54,9 @@ p {
 .member-position {
     padding-bottom: 1.2em;
 }
+
+.team h3 {
+    border-bottom: 3px solid rgb(39, 39, 39);
+    padding-bottom: 1em;
+}
+
