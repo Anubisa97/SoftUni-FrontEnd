@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 20px/1.5 'PT Sans', serif;
+}
+
+body {
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'PT Serif', sans-serif;
+
+}
+
+.site-section {
+    padding: 2em;
+}
+
+.width-container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header li {
+    display: inline-block;
+    list-style: none;
+    padding-left: 1em;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+.banner {
+    color: white;
+    gap: 0.5em;
+    padding-bottom: 15em;
+}
+
+.site-section.banner p {
+    font-size: 1.3em;
+    max-width: 32em;
+}
+
+.site-section.banner h2 {
+    font-size: 3.45em;
+
+}
+
+.site-section.business-info {
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.site-section.business-info .width-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.7em;
+    padding: 3em 0em;
+   
+}
+
+.column h3{
+    font-size: 2.95em;
+    padding-bottom: 0.2em;
+}
+
+.column p {
+    max-width: 40em;
+    padding-bottom: 2em;
+}
+
+.button {
+    text-decoration: none;
+    color: #B0825C;
+    border: 1px solid #B0825C;
+    font-weight: 600;
+    padding: 0.3em 0.7em;
+}
+
+
+
+.site-section.sponsors {
+    background-color: white;
+    
+}
+
+.site-section.sponsors .width-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.site-section.sponsors h3{
+    font-size: 2.95em;
+    color: #B0825C;
+    padding-bottom: 0.3em;
+
+}
+
+.site-section.sponsors p {
+    text-align: center;
+    padding-bottom: 4em;
+}
+
+.media {
+    display: flex;
+    gap: 4em;
+    border-radius: 50%;
+}
+
+img {
+    width: 9em;
+    height: auto;
+    aspect-ratio: 1/1;
+    background-color: gainsboro ;
+    border-radius: 50%;
+    padding: 1em;
+
+}
+
+.site-section.partners {
+    background-color: white;
+
+}
+
+.site-section.partners .width-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.site-section.partners h3{
+    font-size: 2.95em;
+    color: #B0825C;
+    padding-bottom: 0.3em;
+
+}
+
+.site-section.partners p {
+    text-align: center;
+    padding-bottom: 3em;
+
+}
+
+footer {
+    background-color: #171720;
+}
+
+footer.site-section {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+footer.site-section .width-container {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+}
+
+.footer-info h4 {
+ color: white;
+ padding-bottom: 1.5em;
+
+}
+
+.footer-info li {
+    color: #afa090;
+    list-style: none outside;
+    padding-bottom: 0.5em;
+}
+
+footer p {
+    color: #afa090;
+    padding: 0.5em 0em 0.5em 2em;
+}

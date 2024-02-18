@@ -1,0 +1,169 @@
+@media (max-width: 600px) {
+
+    .home-container {
+        padding-top: 0px;
+    }
+
+    .home-navbar {
+        position: static;
+    }
+
+    .home-header {
+        padding-top: 0px;
+    }
+
+    .home-navbar1 {
+        display: none;
+    }
+
+    .max-width-container {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .home-main {
+        padding-bottom: 50px;
+    }
+
+    .section-container {
+        padding-top: 20px;
+    }
+
+    .section-heading-section-heading {
+        margin-bottom: 30px;
+    }
+
+    .section-heading-text {
+        margin-bottom: 5px;
+    }
+
+    .section-heading-text span {
+        font-size: 20px;
+    }
+
+    .section-heading-text1 {
+        font-size: 11px;
+    }
+
+    .category-card-category-card {
+        margin-bottom: 8px;
+    }
+
+    .home-cards-container {
+        grid-gap: 0px;
+    }
+
+    .category-card-image {
+        width: 185px;
+        aspect-ratio: 1/1;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .category-card-text {
+        font-size: 12px;
+    }
+
+    .section-container {
+        flex-direction: column;
+    }
+
+    .home-full-width-banner {
+        padding-top: 0px;
+    }
+
+    .home-content {
+        margin: 20px 0px 15px 0px;
+    }
+
+    .home-text29 {
+        font-size: 20px;
+    }
+
+    .home-text30 {
+        font-size: 11px;
+        width: 93%;
+        line-height: 18px;
+    }
+
+    .button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .home-btn {
+        margin-bottom: 20px;
+    }
+
+    .home-text31 {
+        font-size: 12px;
+    }
+
+    .home-image6 {
+        width: 100%;
+        height: auto;
+    }
+
+    .home-container07 {
+        margin-top: 50px;
+    }
+
+    .home-text23 {
+        font-size: 11px;
+    }
+
+    .Heading-2 {
+        font-size: 24px;
+    }
+
+    .blog-post-card-container {
+        padding: 16px 8px 16px 0px;
+    }
+
+    .blog-post-card-text {
+        font-size: 16px;
+    }
+
+    .blog-post-card-text1 {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .blog-post-card-text1 a {
+        font-size: 14px;
+    }
+
+
+
+    .home-footer1 {
+        flex-direction: column;
+        padding: 40px 0px 10px 0px;
+    }
+
+    .home-footer .max-width-container{
+        padding: 0px 20px;
+    }
+
+    .home-links-container {
+        flex-direction: column;
+        grid-gap: 35px;
+        margin-bottom: 20px;
+    }
+
+    .home-container09 {
+        order: 10;
+    }
+
+    .home-links-container span {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .home-links-container a {
+        font-size: 12px;
+    }
+
+    .home-text33 span {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 18px/1.2 'Karla', serif;
+}
+
+body {
+    background-image: url('images/poster.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: top center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Cormorant Infant', sans-serif;
+}
+
+h1,
+h2 {
+    font-size: 90px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+.site-section {
+    padding: 3.3em 8.8em;
+
+}
+
+.container {
+    max-width: 1060px;
+    margin: 0 auto;
+
+}
+
+header.site-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1em;
+}
+
+header li {
+    display: inline-block;
+    list-style: none;
+    padding-left: 2em;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.site-title a {
+display: block;
+width: 110px;
+height: 90px;
+overflow: hidden;
+text-indent: -200vw;
+background-image: url(images/logo.webp);
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.site-section.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.site-section.banner h2,
+.site-section.banner p {
+    color: white;
+    text-align: center;
+}
+
+.site-section.banner h2 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.site-section.banner p {
+    padding-bottom: 2em;
+    max-width: 70%;
+    margin: 0 auto;
+    padding-bottom: 5em;
+
+}
+
+.site-section.testimonial {
+    padding-top: 1.8em;
+    background-color: #F8F0E9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.site-section.testimonial p {
+    padding-bottom: 2.5em;
+}
+
+.site-section.testimonial h3 {
+    font-style: italic;
+    padding-bottom: 0.5em;
+
+}
+
+
+.site-section.support {
+    background-color: #E14747;
+    display: flex;
+    
+}
+
+.site-section.support .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    gap: 1.5em;
+}
+
+.site-section.support .container p:nth-child(1) {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.site-section.support .container p:nth-child(2) {
+    text-align: center;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.site-section.understand-mind {
+    background-color: #F8F0E9;
+
+}
+
+.site-section.understand-mind .container {
+    max-width: 34.7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.5em;
+}
+
+.site-section.understand-mind .container img {
+    width: 34.7em;
+    height: auto;
+}
+
+.site-section.understand-mind .container h3{
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+.button-left {
+    align-self: flex-start;
+}
+
+.site-section.local-guide {
+    background-color: #E14747;
+}
+
+.site-section.local-guide .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    gap: 3.5em;
+    padding: 0.8em 0;
+}
+
+.site-section.local-guide .container .button {
+    border-radius: 25px;
+    padding: 0.8em 1.1em;
+    background-color: #FAD87A;
+    border: 0px;
+}
+
+footer {
+    background-color: #352B2A
+}
+
+footer img {
+    width: 70px;
+    height: auto;
+    padding-bottom: 2em;
+}
+
+footer p:nth-child(2) {
+    max-width: 30%;
+    color: #ffffffde;
+}
+
+footer p:nth-child(3) {
+    padding-top: 2em;
+    color: #635050;
+    font-size: 14px;
+}
